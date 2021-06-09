@@ -1,0 +1,13 @@
+.search-result-container {
+  min-height: 90%;
+  overflow: auto;
+  width: 95%;
+  border-radius: 15px;
+}
+
+@media (min-width: 768px) {
+  .search-result-container {
+    width: 50%;
+    max-height: 500px;
+  }
+}

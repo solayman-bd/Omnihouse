@@ -2,10 +2,10 @@ import React from "react";
 import "./SideBar.css";
 const SideBar = () => {
   return (
-    <div className="sidebar min-vh-100 w-100 px-0 m-0">
+    <div className="sidebar w-100 px-0 my-0">
       <h5 className="text-white p-3">Find a rental property</h5>
       <div className="mx-auto filter-container mt-1">
-        <div className="search-area m-0 p-0 bc-dark rounded-3 h-78 my-1">
+        <div className="search-area m-0 p-0 bc-dark rounded-3 h-78px my-1">
           <p className="px-2 filter-text">Search Area</p>
           <input
             type="search"
@@ -16,7 +16,7 @@ const SideBar = () => {
           ></input>
         </div>
         <div className="max-min-container d-flex flex-wrap m-0 p-0 my-1 justify-content-between">
-          <div className="max-beds bc-dark rounded-3 w-48 px-2 h-68 my-1">
+          <div className="max-beds bc-dark rounded-3 w-48 px-2 h-68px my-1">
             <p className="px-2 filter-text">Maximum beds</p>
             <select
               className="form-select bc-dark option-height mt-2 text-white"
@@ -28,7 +28,7 @@ const SideBar = () => {
               <option value="3">Three</option>
             </select>
           </div>
-          <div className="min-beds bc-dark rounded-3 w-48 px-2 h-68 my-1">
+          <div className="min-beds bc-dark rounded-3 w-48 px-2 h-68px my-1">
             <p className="px-2 filter-text">Minimum beds</p>
             <select
               className="form-select bc-dark option-height mt-2 text-white"
@@ -41,7 +41,7 @@ const SideBar = () => {
             </select>
           </div>
         </div>
-        <div className="search-area m-0 p-0 bc-dark rounded-3 h-68">
+        <div className="search-area m-0 p-0 bc-dark rounded-3 h-68px">
           <p className="px-2 filter-text">Price per</p>
           <select
             className="form-select bc-dark option-height mt-2 text-white"
@@ -54,7 +54,7 @@ const SideBar = () => {
           </select>
         </div>
         <div className="max-min-container d-flex flex-wrap m-0 p-0 my-1 justify-content-between">
-          <div className="max-beds bc-dark rounded-3 w-48 px-2 h-68 my-1">
+          <div className="max-beds bc-dark rounded-3 w-48 px-2 h-68px my-1">
             <p className="px-2 filter-text">Maximum price</p>
             <select
               className="form-select bc-dark option-height mt-2 text-white"
@@ -66,7 +66,7 @@ const SideBar = () => {
               <option value="3">Three</option>
             </select>
           </div>
-          <div className="min-beds bc-dark rounded-3 w-48 px-2 h-68 my-1">
+          <div className="min-beds bc-dark rounded-3 w-48 px-2 h-68px my-1">
             <p className="px-2 filter-text">Minimum price</p>
             <select
               className="form-select bc-dark option-height mt-2 text-white"
@@ -79,7 +79,7 @@ const SideBar = () => {
             </select>
           </div>
         </div>
-        <button className="sidebar-button text-white h-58 my-1">
+        <button className="sidebar-button text-white h-58px my-2">
           FIND PROPERTIES
         </button>
       </div>

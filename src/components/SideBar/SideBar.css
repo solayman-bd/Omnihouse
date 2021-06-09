@@ -17,13 +17,13 @@
 .bc-dark {
   background-color: #0c0b0b;
 }
-.h-78 {
+.h-78px {
   height: 78px;
 }
-.h-68 {
+.h-68px {
   height: 68px;
 }
-.h-58 {
+.h-58px {
   height: 58px;
 }
 .w-99 {
@@ -36,4 +36,9 @@
   height: 25px;
   padding: 0;
   border: 0;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    min-height: 100vh;
+  }
 }
