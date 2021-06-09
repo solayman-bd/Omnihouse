@@ -1,0 +1,39 @@
+.sidebar {
+  background-color: #201b20;
+}
+.filter-container {
+  width: 95%;
+}
+.filter-text {
+  font-size: 14px;
+  color: #ca18aa;
+}
+.sidebar-button {
+  background-color: #d41553;
+  border: 0;
+  border-radius: 5px;
+  width: 100%;
+}
+.bc-dark {
+  background-color: #0c0b0b;
+}
+.h-78 {
+  height: 78px;
+}
+.h-68 {
+  height: 68px;
+}
+.h-58 {
+  height: 58px;
+}
+.w-99 {
+  width: 99%;
+}
+.w-48 {
+  width: 49%;
+}
+.option-height {
+  height: 25px;
+  padding: 0;
+  border: 0;
+}
