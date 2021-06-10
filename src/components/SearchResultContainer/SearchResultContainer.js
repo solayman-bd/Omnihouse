@@ -9,7 +9,7 @@ const SearchResultContainer = () => {
       <h4 className="p-3">15 Search Result</h4>
       <div className="col-12 ">
         {fakeData.map((data) => (
-          <CardForSearchResult data={data} />
+          <CardForSearchResult data={data} key={data.id} />
         ))}
       </div>
     </div>
